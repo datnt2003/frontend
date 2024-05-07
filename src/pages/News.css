@@ -1,0 +1,25 @@
+.news{
+    max-width: 80%;
+    min-width: 800px;
+    
+    height: 100vh;
+    
+
+}
+
+.news h3{
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: #903938;
+    border-bottom: 2px solid #903938;
+}
+
+.news h3:hover{
+    cursor: pointer;
+    font-size: large;
+}
+.card{
+    margin-bottom: 20px;
+}

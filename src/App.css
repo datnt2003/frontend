@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-width: 850px;
+}
+
+li{
+  list-style: none;
+
+}
+
+/* header */
+
+#header{
+  background-color: antiquewhite;
+  color: white;
+  max-height: 100px
+}
+
+#header h1{
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #903938;
+  text-shadow: 2px 2px 2px #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar */
+#navbar{
+  height: 42px;
+  background-color: rgb(243, 125, 29);
+  display: flex;
+ 
+}
+
+#navbar .menu{
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  justify-content: flex-start;
+}
+#navbar .menu>li{
+  margin-left: 50px;
+  display: inline-block;
+  width: fit-content;
+  /* background-color: aliceblue; */
+  padding: 10px 20px 10px 20px ;
+  
+  
+}
+#navbar .menu>li>a{
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+#navbar .menu>li:hover{
+  cursor: pointer;
+  background-color:  rgba(199, 94, 8, 0.764);
+}
+
+
+
+/* sub menu */
+.ap{
+  position: relative;
+}
+
+.apsub {
+  display: none ; 
+  position: absolute;
+  top: 41px;
+  left: 0px;
+  width: 184px;
+  height: 100px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 999;
+  background-color: white;
+}
+.apsub ul {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 1px solid #ccc;
+  
+}
+.apsub>ul>li{
+  line-height: 25px;
+  padding: 10px;
+}
+
+.apsub>ul>li {
+  width: 100%; 
+  
+}
+.apsub>ul>li>a{
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+.ap:hover .apsub {
+  display: inline-block; 
+  
+}
+
+.apsub li:hover {
+  background-color: #ccc;
+}
+
+
+
+/* content */
+
+#content{
+  min-height: 100%;
+  height: fit-content;
+  /* background-color: aquamarine; */
+  flex: 1; /* Cho phép phần nội dung này mở rộng hoặc co lại để phù hợp với không gian còn lại */
+  overflow-y: auto; /* Thêm thanh cuộn nếu nội dung dài */
+
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+/* footer */
+
+#footer{
+  height: 150px;
+  background-color: antiquewhite;
+}
+
+#footer h3{
+  margin: 20px;
+  color: #903938;
+  border-bottom: 1px solid #903938;
+  font-size: 20px;
+}
+
+#footer ul{
+  margin-left: 35px;
+
+}
+#footer ul li{
+  line-height: 24px;
+  font-weight: 500;
+}
+
+#footer ul li a{
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+#footer ul li a:hover{
+  color: #903938;
+  text-decoration: underline;
+
+}
+
+

@@ -1,0 +1,25 @@
+.home .slide img{
+    height: 600px;
+    width: 100%;
+}
+
+.home p{
+    font-weight: 500;
+    color: black;
+}
+
+.home .hotNews{
+    color: #903938;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-bottom: 1px solid #903938;
+}
+.home ul{
+    margin-left: 35px;
+}
+.home li{
+    list-style-type: square;
+    line-height: 30px;
+
+}

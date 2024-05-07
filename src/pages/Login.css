@@ -1,0 +1,33 @@
+.formClass{
+    display: flex;
+    
+  justify-content: center;
+  align-items: center;
+  /* height: calc(100vh - 286px); */
+  width: 100vw;
+  margin-top: 10%;
+  
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    width: 220px;
+}
+.label-avt{
+  position: relative;
+  display: inline-block;
+}
+.span-avt{
+  display:inline-block;
+  align-items: center;
+  /* gap: 10px; */
+  margin-bottom: 50px;
+  color: #8dd1e6;
+  font-size: 14px;
+  position: absolute;
+  top:0;
+  left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
